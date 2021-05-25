@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1525
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoHospital.Core", "DemoHospital.Core\DemoHospital.Core.csproj", "{FF4CDE17-EA86-40C6-9A3F-15B033DCAAEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifierApplication", "AccessModifierApplication\AccessModifierApplication.csproj", "{60402ECB-7598-4C23-A523-1AFCC333C88B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF4CDE17-EA86-40C6-9A3F-15B033DCAAEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF4CDE17-EA86-40C6-9A3F-15B033DCAAEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF4CDE17-EA86-40C6-9A3F-15B033DCAAEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF4CDE17-EA86-40C6-9A3F-15B033DCAAEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60402ECB-7598-4C23-A523-1AFCC333C88B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60402ECB-7598-4C23-A523-1AFCC333C88B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60402ECB-7598-4C23-A523-1AFCC333C88B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60402ECB-7598-4C23-A523-1AFCC333C88B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {387F8CAA-B778-44E4-92EF-7918B0D511C3}
+	EndGlobalSection
+EndGlobal
