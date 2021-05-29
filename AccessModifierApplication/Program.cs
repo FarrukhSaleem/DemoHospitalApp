@@ -12,7 +12,8 @@ namespace AccessModifierApplication
     {
         static void Main(string[] args)
         {
-            Hospital hospital = new CharityHospital();
+            CharityHospital hospital = new CharityHospital();
+            //Hospital Hospital = new Hospital();
 
             hospital.AddPatient(new Patient
             {
@@ -32,6 +33,9 @@ namespace AccessModifierApplication
             });
 
             DisplayPatientList(hospital.GetPatientList());
+
+            hospital.DisplayTreatmentChargeExemptPatients();
+
             Console.Read();
         }
         public static void DisplayPatientList(ReadOnlyCollection<Patient> PatientList)

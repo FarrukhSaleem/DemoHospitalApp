@@ -5,6 +5,7 @@ namespace DemoHospital.Core
 {
     public class Hospital
     {
+        //private
         protected List<Patient> patients { get; set; }
         public string Name { get; set; }
 

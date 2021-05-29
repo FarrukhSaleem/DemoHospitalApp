@@ -3,12 +3,12 @@
 namespace DemoHospital.Core
 {
     public class CharityHospital : Hospital
-    {
-        public new void DisplayPatientList()
+    {        
+        public void DisplayTreatmentChargeExemptPatients()
         {
             const int AgeLimit = 65;
 
-            foreach (var patient in patients)
+            foreach (var patient in base.patients)
             {
                 DateTime zeroTime = new DateTime(1, 1, 1);
                 TimeSpan timeSpan = (DateTime.Now - patient.DateOfBirth);
