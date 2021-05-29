@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace DemoHospital.Core
 {
     public class Patient
