@@ -30,9 +30,20 @@ namespace AccessModifierApplication
                 Name = "Older MAN",
                 Surname = "MAN"
             });
-            hospital.DisplayPatientList();
+
+            DisplayPatientList(hospital.GetPatientList());
             Console.Read();
         }
-        
+        public static void DisplayPatientList(ReadOnlyCollection<Patient> PatientList)
+        {
+            foreach (Patient item in PatientList)
+            {
+                Console.WriteLine(item.id);
+                Console.WriteLine(item.InsuranceNo);
+                Console.WriteLine(item.Name);
+                Console.WriteLine(item.Surname);
+                Console.WriteLine(item.DateOfBirth);
+            }
+        }
     }
 }
